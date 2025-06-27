@@ -1,0 +1,13 @@
+{
+    "LogisticRegression": "models/trained_models/LogisticRegression.joblib",
+    "RandomForest": "models/trained_models/RandomForest.joblib",
+    "ExtraTrees": "models/trained_models/ExtraTrees.joblib",
+    "Bagging": "models/trained_models/Bagging.joblib",
+    "GradientBoosting": "models/trained_models/GradientBoosting.joblib",
+    "AdaBoost": "models/trained_models/AdaBoost.joblib",
+    "SVM": "models/trained_models/SVM.joblib",
+    "KNN": "models/trained_models/KNN.joblib",
+    "NaiveBayes": "models/trained_models/NaiveBayes.joblib",
+    "LDA": "models/trained_models/LDA.joblib",
+    "MLP": "models/trained_models/MLP.joblib"
+}
