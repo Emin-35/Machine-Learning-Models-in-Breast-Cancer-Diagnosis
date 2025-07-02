@@ -71,7 +71,43 @@ Uygulama özellikleri:
 Projenin çalışabilmesi için aşağıdaki paketlerin yüklü olması gerekir:
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib seaborn streamlit joblib
+pip install scikit-learn
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import (
+    RandomForestClassifier, GradientBoostingClassifier,
+    AdaBoostClassifier, ExtraTreesClassifier, BaggingClassifier
+)
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.neural_network import MLPClassifier
+
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score, classification_report, roc_auc_score, confusion_matrix
+from sklearn.preprocessing import StandardScaler
+
+pip install pandas
+pip install joblib
+pip install numpy
+pip install plotly
+import streamlit as st
+
+import streamlit as st
+import numpy as np
+import pandas as pd
+import plotly.express as px
+from plotly.subplots import make_subplots
+import plotly.graph_objects as go
+import sys
+import json
+import os
+import random
+
+pip install matplotlib  # İsteğe bağlı, bazı modellerde grafik gerekebilir
+pip install seaborn  # Eğer ek görselleştirme istiyorsanız
 ```
 
 Uygulamayı başlatmak için:
